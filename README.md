@@ -59,6 +59,8 @@ export class ElectricCar extends Car {
 
 **Favor composition** - Loose coupling helps combining and reusing simple components to build various complicated ones to satisfy specific user requirements.
 
+![inheritance vs composition]()
+
 > https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205
 
 
@@ -144,16 +146,17 @@ Do create data streams of anything. Streams are cheap and ubiquitous. Anything c
 
 Reactive Programming raises the level of abstraction of your code so you can focus on the interdependence of events that define the business logic, rather than having to constantly fiddle with a large amount of implementation details.
 
- 
-
 > Introduction to Reactive Programming: https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 
 > Patterns of managing state: https://medium.com/@alialhaddad/https-medium-com-alialhaddad-redux-vs-parent-to-child-2583c8e29509
 
-You are able to create data streams of anything: variables, user inputs, properties, caches, data structures, etc.
-On top of that, you are given an amazing toolbox of functions to combine, create and filter any of those streams.
+* You are able to create data streams of anything: variables, user inputs, properties, caches, data structures, etc.
+* On top of that, you are given an amazing toolbox of functions to combine, create and filter any of those streams.
+
 A stream can be used as an input to another one. Even multiple streams can be used as inputs to another stream.
 You can merge two streams.
 You can filter a stream to get another one that has only those events you are interested in.
 You can map data values from one stream to another new one.
+
+![filter, map, reduce explained with emojis](https://i.redd.it/yf7rw3pjiapx.jpg)
 
