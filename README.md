@@ -131,7 +131,9 @@ Subcomponents subscribe to relevant data via @Input() and present it.
 ```
 
 > How to write pure components: https://medium.com/@jtomaszewski/how-to-write-good-composable-and-pure-components-in-angular-2-1756945c0f5b
+
 > Component Architecture: https://blog.angulartraining.com/component-architecture-with-angular-6f7bc9165443
+
 > Feature and Presentation Components: https://coryrylan.com/blog/angular-design-patterns-feature-and-presentation-components
 
 ## State management patterns
@@ -144,9 +146,9 @@ Reactive Programming raises the level of abstraction of your code so you can foc
 
  
 
-Introduction to Reactive Programming: https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+> Introduction to Reactive Programming: https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 
-Patterns of managing state: https://medium.com/@alialhaddad/https-medium-com-alialhaddad-redux-vs-parent-to-child-2583c8e29509
+> Patterns of managing state: https://medium.com/@alialhaddad/https-medium-com-alialhaddad-redux-vs-parent-to-child-2583c8e29509
 
 You are able to create data streams of anything: variables, user inputs, properties, caches, data structures, etc.
 On top of that, you are given an amazing toolbox of functions to combine, create and filter any of those streams.
