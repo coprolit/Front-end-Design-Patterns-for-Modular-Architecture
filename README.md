@@ -59,7 +59,7 @@ export class ElectricCar extends Car {
 
 **Favor composition** - Loose coupling helps combining and reusing simple components to build various complicated ones to satisfy specific user requirements.
 
-![inheritance vs composition]()
+![inheritance vs composition](/inheritance%20vs%20composition.svg)
 
 > https://medium.com/humans-create-software/composition-over-inheritance-cb6f88070205
 
